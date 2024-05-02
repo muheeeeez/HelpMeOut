@@ -1,0 +1,179 @@
+
+.main-container {
+  color: #120b48;
+  min-width: 300px;
+  height: 439px;
+  /* top: 150px;
+  left: 1076px; */
+  /* gap: 32px; */
+  /* border-radius: 24px; */
+  padding: 24px 24px 32px 24px;
+}
+.header {
+  height: 76px;
+  gap: 16px;
+}
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-direction: row;
+}
+.title-text {
+  margin-top: 5px;
+  padding-left: 7px;
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.16px;
+}
+.settings-icon {
+  padding-right: 7px;
+}
+.extention-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.42px;
+  font-family: "Work Sans", sans-serif;
+  height: 32px;
+  width: 225px;
+}
+.container {
+  margin-top: 50px;
+  width: 252px;
+  height: 200px;
+  gap: 24px;
+}
+.screen-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 252px;
+  height: 56px;
+  padding: 0px 32px 0px 32px;
+  text-align: center;
+}
+.full-screen {
+  width: 76px;
+  height: 56px;
+  gap: 8px;
+}
+.full-screen h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.42px;
+}
+.current-tab {
+  width: 82px;
+  height: 56px;
+  gap: 8px;
+}
+.current-tab h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.42px;
+  text-align: center;
+}
+.button-container,
+.audio-container {
+  margin-top: 50px;
+  width: 252px;
+  height: 35px;
+  border-radius: 12px;
+  border: 2px solid #120b48;
+  justify-content: space-between;
+  padding: 12px 12px 12px 16px;
+}
+.button-container .toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, 80%);
+  width: 50px;
+  height: 30px;
+  background-color: #120b48;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.button-container .toggle .toggle-button {
+  position: absolute;
+  top: 3px;
+  left: 25px;
+  width: 20px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button-container .toggle.camera-active {
+  background-color: #120b48;
+}
+.button-container .toggle.camera-active .toggle-button {
+  left: 5px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+}
+.icon-text {
+  margin-top: 10px;
+}
+.camera-text {
+  margin-top: 5px;
+  padding-left: 7px;
+  font-size: 25px;
+  margin: 0;
+}
+.audio-container {
+  margin-top: 25px;
+}
+.toggled {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, 360%);
+  width: 50px;
+  height: 30px;
+  background-color: #120b48;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.audio-container .toggled .toggled-button {
+  position: absolute;
+  top: 3px;
+  left: 25px;
+  width: 20px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.audio-container .toggled.audio-active {
+  background-color: #120b48;
+}
+.audio-container .toggled.audio-active .toggled-button {
+  left: 5px;
+}
+.recording-button {
+  margin-top: 25px;
+  width: 280px;
+  height: 51px;
+  border-radius: 12px;
+  border: 2px solid #120b48;
+  background-color: #120b48;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20x;
+  line-height: 18.77px;
+  cursor: pointer;
+}
